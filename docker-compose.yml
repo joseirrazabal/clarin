@@ -1,0 +1,22 @@
+version: '3.2'
+services:
+  mongo:
+    container_name: mongo
+    image: mongo
+    network_mode: "host"
+
+  back:
+    container_name: back
+    image: back
+    build: ./back
+    env_file:
+      - ./env_back
+    network_mode: "host"
+
+  front:
+    container_name: front
+    image: front
+    build: ./front
+    env_file:
+      - ./env_front
+    network_mode: "host"
