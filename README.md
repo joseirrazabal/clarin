@@ -13,7 +13,7 @@ Teniendo instalada la herramienta, la ejecucion seria.
 
 - docker-compose up
 
-esto ultimo levanta un mongo, el back y el front, para que puedan comunicarse entre ellos
-se espone en le puerto 80 el frontend y en el 5000 el back.
+esto ultimo levanta un mongo, el back y el front, para que puedan comunicarse entre ellos,
+se expone el puerto 80 el frontend y en el 5000 el back.
 
-cada servicio puede levantarse con docker. o para se desarrollo simple con npm start
+cada servicio puede levantarse con docker. o para desarrollo simplemente con npm start
