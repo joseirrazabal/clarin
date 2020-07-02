@@ -16,7 +16,7 @@ services:
   front:
     container_name: front
     image: front
-    build: ./front
+    build: ./frontend
     env_file:
       - ./env_front
     network_mode: "host"
